@@ -72,6 +72,7 @@ const VideoPlayer = ({
           muted={videoMuted}
           playsInline
           ref={acceptVideoRef({ shared, videoMuted }, onVideoElementRef)}
+          controls
         />
         {shared
           ? (
